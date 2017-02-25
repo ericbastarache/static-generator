@@ -5,7 +5,7 @@ div.generated-card {
   padding: 10px;
 }
 
-div.generated-card > textarea.prv {
+div.generated-card > div.prv {
   background-color: #f9f9f9;
   border: none;
 }
