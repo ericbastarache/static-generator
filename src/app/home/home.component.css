@@ -39,3 +39,23 @@ div.container-options > button {
 div.footer-options > button {
   width: 100%;
 }
+
+nav.navbar-red {
+  background-color: #d9534f;
+}
+
+nav.navbar-blue {
+  background-color: #337ab7;
+}
+
+nav.navbar-green {
+  background-color: #5cb85c;
+}
+
+nav.navbar-purple {
+  background-color: #800080;
+}
+
+nav.navbar-orange {
+  background-color: #f0ad4e;
+}
