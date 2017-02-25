@@ -13,8 +13,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a [routerLink]="['home']">Home</a></li>
-        <li><a [routerLink]="['about']">About</a></li>
+        <li [routerLinkActive]="['active']"><a [routerLink]="['home']">Home</a></li>
+        <li [routerLinkActive]="['active']"><a [routerLink]="['about']">About</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
