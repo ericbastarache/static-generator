@@ -1,13 +1,23 @@
 /* tslint:disable:no-unused-variable */
-
+import {} from 'jasmine'
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { AboutComponent } from './about/about.component';
+import { HeaderComponent } from './header/header.component';
+import { ErrorComponent } from './error/error.component';
+import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 describe('AppComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        AboutComponent,
+        HeaderComponent,
+        HomeComponent,
+        ErrorComponent,
+        FooterComponent
       ],
     });
     TestBed.compileComponents();
