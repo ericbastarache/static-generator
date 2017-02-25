@@ -15,3 +15,27 @@ div.generator-functions {
   box-shadow: 0 0 1px #cdcdcd;
   width: 100%;
 }
+
+div.header-options > button {
+  width: 100%;
+}
+
+button.btn-black {
+  background-color: #333;
+  color: #fff;
+}
+
+button.btn-purple {
+  background-color: #800080;
+  color: #fff;
+}
+
+div.container-options > button {
+  float: left;
+  width: 50%;
+  height: 100px;
+}
+
+div.footer-options > button {
+  width: 100%;
+}
