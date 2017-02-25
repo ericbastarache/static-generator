@@ -12,3 +12,7 @@ body {
   margin-bottom: 60px;
   font-family: 'Ubuntu', sans-serif;
 }
+
+button, button:active, button:focus {
+  outline: none;
+}
