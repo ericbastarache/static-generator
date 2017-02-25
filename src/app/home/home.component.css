@@ -1,0 +1,17 @@
+div.generated-card {
+  border: 1px solid #000;
+  box-shadow: inset 1px 1px 1px #cdcdcd;
+  width: 100%;
+  padding: 10px;
+}
+
+div.generated-card > textarea.prv {
+  background-color: #f9f9f9;
+  border: none;
+}
+
+div.generator-functions {
+  border: 1px solid #000;
+  box-shadow: 0 0 1px #cdcdcd;
+  width: 100%;
+}
