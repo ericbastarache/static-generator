@@ -10,7 +10,6 @@ import { FooterComponent } from './footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { APP_ROUTES } from './routes';
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
 import { ErrorComponent } from './error/error.component';
 
 @NgModule({
@@ -19,7 +18,6 @@ import { ErrorComponent } from './error/error.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    AboutComponent,
     ErrorComponent
   ],
   imports: [
