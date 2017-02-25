@@ -1,0 +1,12 @@
+div.screenshots > img {
+  margin-top: 15px;
+}
+
+div.about-text > h1 {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+div.about-text > p.description {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+}
